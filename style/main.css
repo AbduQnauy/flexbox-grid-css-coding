@@ -16,14 +16,14 @@ nav {
   flex: 0 0 auto;
 }
 nav ul {
-  height: 264px;
-  list-style: none;
+ height: 0;
+  opacity: 0;
   overflow: hidden;
   transition: all 2s linear;
 }
 .hideNav {
-  height: 0;
-  opacity: 0;
+  height: 264px;
+  opacity: 1;
 }
 nav ul li a {
   display: block;
