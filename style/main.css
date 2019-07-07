@@ -16,8 +16,9 @@ nav {
   flex: 0 0 auto;
 }
 nav ul {
- height: 0;
+  height: 0;
   opacity: 0;
+  list-style: none;
   overflow: hidden;
   transition: all 2s linear;
 }
@@ -83,9 +84,7 @@ nav ul li a:hover {
 .turn .bar3 {
   transform: rotate(45deg) translate(-7px, -8px);
 }
-#banner {
-  flex: 1 0 auto;
-}
+
 @media screen and (min-width: 690px) {
   nav {
     display: flex;
@@ -124,6 +123,7 @@ nav ul li a:hover {
 }
 /* banner */
 #banner {
+  flex: 1 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../imgz/banner-img.jpeg") center/cover no-repeat fixed;
   display: flex;
